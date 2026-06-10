@@ -11,6 +11,7 @@ Public API
 
 from __future__ import annotations
 
+import os
 import re
 import textwrap
 from typing import Optional
@@ -243,7 +244,9 @@ def explain_anomaly(
     # Call Ollama
     # ------------------------------------------------------------------
     try:
-        response = ollama.chat(
+        host = os.getenv("OLLAMA_HOST", "http://localhost:11434")
+        client = ollama.Client(host=host)
+        response = client.chat(
             model=model,
             messages=[
                 {"role": "system",  "content": _SYSTEM_PROMPT},

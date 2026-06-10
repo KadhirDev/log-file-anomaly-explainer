@@ -299,9 +299,11 @@ python -m pytest examples/test_log_parser.py -v
 
 ---
 
-## 👨‍💻 Team
+## 👨‍💻 Meet the Team
 
-Built by the **PS-02** team.
+<div align="center">
+
+Built with dedication by the **PS-02** team.
 
 | Name | Resume |
 |:---:|:---:|
@@ -310,4 +312,6 @@ Built by the **PS-02** team.
 | **Kadhir K G** | [📄 View Resume](https://drive.google.com/file/d/1dV_-uQDYHrpxE9w7PoQqBRiLikPooEcL/view?usp=sharing) |
 | **Nideeshkumar A** | [📄 View Resume](https://drive.google.com/file/d/1WppEEQpHdCzqWF_PyzJjFfU4PIuooOCH/view?usp=sharing) |
 
-*Built with Python · Groq · Streamlit · Typer · Rich*
+<br>
+
+*Built with Python · Typer · Rich · Ollama · Streamlit*
